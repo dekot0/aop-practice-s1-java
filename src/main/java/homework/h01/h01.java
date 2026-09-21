@@ -1,15 +1,14 @@
 package homework.h01;
 
 public class h01 {
-        public int countOdds(int low, int high) {
+  public int countOdds(int low, int high) {
 
-            int count = (high - low) / 2;
+    int count = (high - low) / 2;
 
+    if (low % 2 != 0 || high % 2 != 0) {
+      count++;
+    }
 
-            if (low % 2 != 0 || high % 2 != 0) {
-                count++;
-            }
-
-            return count;
-        }
-   }
+    return count;
+  }
+}
