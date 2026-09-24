@@ -1,5 +1,6 @@
 package homework.h01;
 
+// https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/
 public class h01 {
   public int countOdds(int low, int high) {
 
