@@ -1,6 +1,6 @@
 package homework.h05;
 
-// https://leetcode.com/problems/squares-of-a-sorted-array/
+// https://leetcode.com/problems/valid-anagram/
 public class T1 {
     public boolean isAnagram(String s, String t) {
         if (s.length() != t.length()) {
