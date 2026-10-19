@@ -1,3 +1,6 @@
 .idea
 target
 *.iml
+.jqwik-database
+pom.xml
+notes.txt
