@@ -1,5 +1,6 @@
 package homework.h05;
 
+// https://leetcode.com/problems/valid-palindrome/
 public class T2 {
     public boolean isPalindrome(String s) {
         int left = 0;
